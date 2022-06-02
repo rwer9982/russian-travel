@@ -1,0 +1,16 @@
+.footer {
+    padding-top: 45px;
+    padding-bottom: 25px;
+    width: 100%;
+    max-width: 1111px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-content: center;
+}
+
+@media screen and (max-width: 450px) {
+    .footer {
+        flex-direction: column;
+    }
+}

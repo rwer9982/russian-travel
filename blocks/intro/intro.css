@@ -1,0 +1,9 @@
+.intro {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 50px;
+    align-self: flex-start;
+    margin-left: 5%;
+}

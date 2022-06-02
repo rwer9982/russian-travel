@@ -1,0 +1,19 @@
+.cover {
+    margin-top: 80px;
+    width: 100%;
+    min-width: 320px;
+    min-height: 200px;
+    max-width: 1111px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../images/cover-trains.jpg);
+    text-decoration: none;
+}
+
+.cover:hover {
+    filter: brightness(40%);
+    transition: 1s ease-in-out;
+}

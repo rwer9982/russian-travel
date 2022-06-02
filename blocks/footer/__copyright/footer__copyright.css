@@ -1,0 +1,15 @@
+.footer__copyright {
+    font-size: 1.5vw;
+    width: inherit;
+    text-align: right;
+    margin-top: 0;
+    padding-right: 1vw;
+}
+
+@media screen and (max-width: 450px) {
+    .footer__copyright {
+        margin-top: 20px;
+        margin-left: 4vw;
+        text-align: left;
+    }
+}

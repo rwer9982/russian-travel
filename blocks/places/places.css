@@ -1,0 +1,12 @@
+.places {
+    width: 75%;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 450px) {
+    .places {
+        width: 100%;
+    }
+}
