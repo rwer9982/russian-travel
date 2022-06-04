@@ -1,7 +1,5 @@
 .header__lang-link {
     height: fit-content;
-    right: 0;
-    position: absolute;
     text-decoration: none;
     color: white;
 }
