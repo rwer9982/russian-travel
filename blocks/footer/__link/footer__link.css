@@ -1,15 +1,19 @@
 .footer__link {
-    margin-left: 4vw;
+    margin-left: 3%;
     text-decoration: none;
     color: white;
-    font-size: 1.5vw;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 93%;
 }
 
 .footer__link:hover {
     text-decoration: underline;
+    opacity: 0.3;
+    transition: 2s;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 620px) {
     .footer__link {
         margin-top: 10px;
     }

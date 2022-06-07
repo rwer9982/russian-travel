@@ -1,7 +1,0 @@
-@font-face { 
-    font-family: "Inter";
-    src: local("Inter"),
-         url(Inter.eot?) format("eot"), 
-         url(Inter.woff) format("woff"), 
-         url(Inter.ttf) format("truetype");
-  }

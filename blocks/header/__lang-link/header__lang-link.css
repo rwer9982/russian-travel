@@ -3,8 +3,13 @@
     text-decoration: none;
     color: white;
     margin-left: 10px;
+    font-style: Regular;
+    line-height: 96%;
+    font-size: 24px;
 }
 
 .header__lang-link:hover {
     text-decoration: underline;
+    opacity: 0.3;
+    transition: 2s;
 }
