@@ -5,3 +5,19 @@
     line-height: 87%;
     margin-top: 50px;
 }
+
+@media screen and (max-width: 700px) {
+    .place__title {
+      line-height: 90%;
+      font-size: 32px;
+      font-weight: 900;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .place__title {
+      line-height: 90%;
+      font-size: 42px;
+      font-weight: 900;
+    }
+}

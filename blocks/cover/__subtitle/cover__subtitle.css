@@ -8,3 +8,11 @@
     margin: 10vw auto 30vw;
     text-decoration: none;
 }
+
+@media screen and (max-width: 700px) {
+    .cover__subtitle {
+      line-height: 94%;
+      font-size: 14px;
+      font-weight: 400;
+    }
+}
