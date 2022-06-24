@@ -6,9 +6,9 @@
   align-items: center;
   background-color: #2A2C2F;
   color: white;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family:'Inter';
   display: flex;
   flex-direction: column;
   overflow: visible;
   text-rendering: optimizeLegibility;
-}
+  }

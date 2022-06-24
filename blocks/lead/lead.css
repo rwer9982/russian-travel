@@ -1,15 +1,9 @@
 .lead {
     min-width: 320px;
-    width: 80%;
+    width: 100%;
     max-width: 1280px;
     display: flex;
     flex-direction: column;
     position: relative;
     padding-top: 50px;
-}
-
-@media screen and (max-width: 800px) {
-    .places {
-        width: 100%;
-    }
 }
