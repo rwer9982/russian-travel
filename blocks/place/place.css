@@ -2,5 +2,12 @@
     object-fit: cover;
     display: grid;
     gap: 15px;
+    margin-top: 80px;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+@media screen and (max-width: 740px) {
+    .places {
+        margin-top: 50px;
+    }
 }
