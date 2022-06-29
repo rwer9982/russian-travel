@@ -1,9 +1,14 @@
 .intro {
     width: 80%;
-    min-width: 300px;
+    min-width: 288px;
     max-width: 984px;
     display: flex;
     flex-direction: column;
     position: relative;
-    padding-top: 50px;
+}
+
+@media screen and (max-width: 1050px) {
+    .intro {
+        width: 90%;
+    }
 }

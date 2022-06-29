@@ -2,22 +2,29 @@
     margin: 0;
     font-weight: 900;
     font-size: 72px;
-    line-height: 87%;
-    margin-top: 50px;
+    line-height: 76px;
+    margin-top: 80px;
+    padding-bottom: 48px;
 }
 
 @media screen and (max-width: 700px) {
     .place__title {
-      line-height: 90%;
       font-size: 32px;
-      font-weight: 900;
+      line-height: 35px;
+      margin-top: 50px;
+      padding-bottom: 32px;
     }
 }
 
 @media screen and (max-width: 925px) {
     .place__title {
-      line-height: 90%;
+      line-height: 46px;
       font-size: 42px;
-      font-weight: 900;
     }
+}
+
+@media screen and (max-width: 360px) {
+  .place__title {
+      margin-left: 5%;
+  }
 }

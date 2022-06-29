@@ -5,11 +5,16 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    padding-top: 50px;
 }
 
-@media screen and (max-width: 800px) {
-    .places {
+@media screen and (max-width: 1050px) {
+    .lead {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 867px) {
+    .lead {
         width: 100%;
     }
 }

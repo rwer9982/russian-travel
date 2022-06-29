@@ -1,16 +1,17 @@
 .footer {
-    padding-top: 105px;
+    padding-top: 92px;
     padding-bottom: 25px;
     width: 90%;
     min-width: 320px;
-    max-width: 1184px;
+    max-width: 1150px;
     display: flex;
     flex-direction: row;
     position: relative;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 740px) {
     .footer {
         flex-direction: column;
+        padding-top: 64px;
     }
 }
