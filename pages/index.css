@@ -32,5 +32,5 @@
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/main/main.css);
-@import url(../blocks/intro/__list/_span/intro__list_span.css);
-@import url(../blocks/place/__paragraph/_text/place__paragraph_text.css);
+@import url(../blocks/intro/__span/intro__span.css);
+@import url(../blocks/place/__text/place__text.css);
