@@ -1,8 +1,10 @@
 .place {
     object-fit: cover;
     display: grid;
-    gap: 15px;
-    margin-top: 80px;
+    row-gap: 20px;
+    column-gap: 15px;
+    max-width: 984px;
+    min-width: 288px;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
 
@@ -12,8 +14,16 @@
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 900px) {
     .place {
-        width: 100%;
+        row-gap: 5px;
+        column-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .place {
+        row-gap: 0;
+        column-gap: 0;
     }
 }

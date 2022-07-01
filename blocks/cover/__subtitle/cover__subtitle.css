@@ -16,3 +16,21 @@
       font-size: 14px;
     }
 }
+
+@media screen and (max-width: 1100px) {
+  .cover__subtitle {
+    margin: 4% auto 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cover__subtitle {
+    min-width: 360px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .cover__subtitle {
+    min-width: 288px;
+  }
+}
