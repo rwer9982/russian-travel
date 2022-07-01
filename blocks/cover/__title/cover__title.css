@@ -22,3 +22,9 @@
     margin: 17.5% auto 0;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .cover__title {
+    margin: 15% auto 0;
+  }
+}

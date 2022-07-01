@@ -19,3 +19,9 @@
         padding-bottom: 32px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .place__link {
+        margin-left: 2%;
+    }
+}
