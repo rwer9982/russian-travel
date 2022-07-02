@@ -10,13 +10,6 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 767px) {
-    .cover__title {
-      line-height: 35px;
-      font-size: 32px;
-    }
-}
-
 @media screen and (max-width: 1100px) {
   .cover__title {
     margin: 17.5% auto 0;
@@ -26,5 +19,25 @@
 @media screen and (max-width: 800px) {
   .cover__title {
     margin: 15% auto 0;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .cover__title {
+    line-height: 35px;
+    font-size: 32px;
+    margin: 20% auto 0;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .cover__title {
+    margin: 15% auto 0;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .cover__title {
+    margin: 8% auto 0;
   }
 }

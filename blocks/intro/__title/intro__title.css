@@ -13,3 +13,9 @@
       margin-top: 65px;
     }
 }
+
+@media screen and (max-width: 400px) {
+  .intro__title {
+    margin-top: 70px;
+  }
+}
