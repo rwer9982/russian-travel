@@ -23,6 +23,7 @@
 
 @media screen and (max-width: 400px) {
     .header__lang-link {
-        margin-top: 14px;
+        margin-top: 10px;
+        margin-right: 10px;
     }
 }
